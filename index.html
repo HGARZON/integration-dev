@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 ie6"> <![endif]-->
+<!--[if IE 7]>	<html class="no-js  lt-ie10 lt-ie9 lt-ie8 ie7"> <![endif]-->
+<!--[if IE 8]>	<html class="no-js lt-ie10 lt-ie9 ie8"> <![endif]-->
+<!--[if IE 9]>	<html class="no-js lt-ie10 ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<title>Olapic test</title>
+	<link rel="stylesheet" href="dist/olapic_wallv2/styles.css">
+	<!--[if IE]>
+	  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+	<div class="olapic__test">
+		<header class="olapic__test-header">
+			<h1 class="olapic__test-header--title">
+				SCHUH
+			</h1>
+			<h2 class="olapic__test-header--subtitle">
+				STYLE GALLERY
+			</h2>
+			<span class="olapic__test-header--hash">
+				#SCHUHSTYLE
+			</span>
+			<p class="olapic__test-header--description">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent leo justo, aliquam quis congue sit amet, sagittis at quam. Suspendisse sem mauris, rutrum at dui sit amet, gravida aliquam enim. Maecenas non mi egestas, dapibus tortor sit amet, fermentum urna. Aliquam ac tincidunt libero. Sed porta nisi id elementum scelerisque. Etiam luctus justo sit amet convallis porttitor. Ut turpis augue, efficitur in nisl ac, volutpat commodo mauris.
+			</p>
+			<div class="dropdown">
+			  <button onclick="myFunction()" class="dropbtn">WOMENS</button>
+			  <div id="myDropdown" class="dropdown-content">
+			    <a href="#">MENS</a>
+			    <a href="#">KIDS</a>
+			    <a href="#">ACCESORIES</a>
+			  </div>
+			</div>
+		</header>
+		<main id="olapic_specific_widget"></main>
+		<script type="text/javascript" src="https://photorankstatics-a.akamaihd.net/81b03e40475846d5883661ff57b34ece/static/frontend/latest/build.min.js"  data-olapic="olapic_specific_widget" data-instance="750e9a473a7957735eb7590e7fc6e289" data-apikey="0daf989524ec261bb7dfa87e68b6feb3fe3f739b996d7a69266a6fef6ab2df05" async="async"></script>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		/* When the user clicks on the button, 
+		toggle between hiding and showing the dropdown content */
+		function myFunction() {
+		    document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		// Close the dropdown menu if the user clicks outside of it
+		window.onclick = function(event) {
+		  	if (!event.target.matches('.dropbtn')) {
+
+		    	var dropdowns = $(".dropdown-content");
+		    	var i;
+		    	for (i = 0; i < dropdowns.length; i++) {
+		     		var openDropdown = dropdowns[i];
+		      		if (openDropdown.classList.contains('show')) {
+		        		openDropdown.classList.remove('show');
+		      		}
+		    	}
+		  	}
+		}
+	</script>
+</body>
+</html>
