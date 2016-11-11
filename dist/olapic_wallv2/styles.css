@@ -1,48 +1,69 @@
 @charset 'UTF-8';
-html {
+html
+{
     margin: 0; 
+
     background-color: #222;
 }
 
-.olapic__test {
+.olapic__test
+{
     /* ---- Browser Fixes ----*/
 }
-.olapic__test .dropdown {
+.olapic__test .dropdown
+{
     display: none;
 }
-.olapic__test .olapic__test-header {
-    position: relative; 
+.olapic__test .olapic__test-header
+{
     font-family: 'RobotoLight', Arial, sans-serif;
+
+    position: relative; 
+
     text-align: center;
+
     color: #fff;
 }
-.olapic__test .olapic__test-header .olapic__test-header--title {
-    margin: 0; 
+.olapic__test .olapic__test-header .olapic__test-header--title
+{
     font-size: 76px;
     font-weight: 100;
+
+    margin: 0; 
+
     letter-spacing: 30px;
 }
-.olapic__test .olapic__test-header .olapic__test-header--subtitle {
-    margin: 0 0 15px; 
+.olapic__test .olapic__test-header .olapic__test-header--subtitle
+{
     font-size: 15px;
+
+    margin: 0 0 15px; 
+
     letter-spacing: 10px;
 }
-.olapic__test .olapic__test-header .olapic__test-header--hash {
+.olapic__test .olapic__test-header .olapic__test-header--hash
+{
     font-size: 22px;
     font-weight: bold; 
+
     color: #0af;
 }
-.olapic__test .olapic__test-header .olapic__test-header--description {
+.olapic__test .olapic__test-header .olapic__test-header--description
+{
+    font-size: 14px;
+
     width: 100%; 
     max-width: 840px;
     margin: 15px auto 0;
-    font-size: 14px;
 }
-.olapic__test .olapic-wall-widget {
+.olapic__test .olapic-wall-widget
+{
+    font-family: Arial, Helvetica, sans-serif;
+
+    overflow: hidden;
+
     height: auto;
     margin: 0 auto;
-    overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
     /* Header */
     /* filters */
     /* sticky nav */
@@ -53,810 +74,1100 @@ html {
     /* olapic attribution */
     /* go to top */
 }
-.olapic__test .olapic-wall-widget * {
+.olapic__test .olapic-wall-widget *
+{
     box-sizing: border-box;
 }
-.olapic__test .olapic-wall-widget i {
+.olapic__test .olapic-wall-widget i
+{
     font-style: normal;
 }
 .olapic__test .olapic-wall-widget a,
 .olapic__test .olapic-wall-widget a:hover,
 .olapic__test .olapic-wall-widget a:focus,
-.olapic__test .olapic-wall-widget a:active {
+.olapic__test .olapic-wall-widget a:active
+{
     text-decoration: none;
+
     color: inherit;
     outline: none;
 }
-.olapic__test .olapic-wall-widget .btn {
-    display: inline-block;
+.olapic__test .olapic-wall-widget .btn
+{
     font-size: 14px;
     font-weight: normal;
     line-height: 1.428571429;
+
+    display: inline-block;
+
     cursor: pointer;
     text-align: center;
     vertical-align: middle;
     white-space: nowrap;
+
     border-radius: 3px;
 }
 .olapic__test .olapic-wall-widget .btn:focus,
-.olapic__test .olapic-wall-widget .btn:active {
+.olapic__test .olapic-wall-widget .btn:active
+{
     outline: none;
 }
-.olapic__test .olapic-wall-widget .olapic-wall-header {
+.olapic__test .olapic-wall-widget .olapic-wall-header
+{
     float: left; 
+
     width: 100%;
 }
-.olapic__test .olapic-wall-widget .olapic-wall-header .olapic-top {
+.olapic__test .olapic-wall-widget .olapic-wall-header .olapic-top
+{
     width: 100%;
 }
-.olapic__test .olapic-wall-widget .olapic-wall-header .olapic-top .olapic-cover {
+.olapic__test .olapic-wall-widget .olapic-wall-header .olapic-top .olapic-cover
+{
     float: left; 
+
     width: 100%;
 }
-.olapic__test .olapic-wall-widget .olapic-wall-header .olapic-top .olapic-tools {
+.olapic__test .olapic-wall-widget .olapic-wall-header .olapic-top .olapic-tools
+{
     position: relative;
+
     float: left;
+
     width: 100%;
     height: 75px;
+
     text-align: center;
 }
-.olapic__test .olapic-wall-widget .olapic-wall-header .olapic-top .olapic-tools i {
+.olapic__test .olapic-wall-widget .olapic-wall-header .olapic-top .olapic-tools i
+{
     margin: 4px 0 0;
 }
-.olapic__test .olapic-wall-widget .olapic-wall-header .olapic-top .olapic-tools .olapic-upload {
-    display: inline-block;
-    width: auto;
-    padding: 10px 17px;
-    margin: 20px auto;
+.olapic__test .olapic-wall-widget .olapic-wall-header .olapic-top .olapic-tools .olapic-upload
+{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+
+    display: inline-block;
+
+    width: auto;
+    margin: 20px auto;
+    padding: 10px 17px;
+
     text-decoration: none; 
     text-transform: uppercase;
+
     color: #fff;
     border: 0;
     border-radius: 0;
     background: #61bc46;
 }
-.olapic__test .olapic-wall-widget .olapic-wall-header .olapic-top .olapic-tools .olapic-upload:before {
-    margin-right: 5px; 
+.olapic__test .olapic-wall-widget .olapic-wall-header .olapic-top .olapic-tools .olapic-upload:before
+{
     font-family: 'olapic-icons';
+
+    margin-right: 5px; 
+
     content: '\e810';
 }
-.olapic__test .olapic-wall-widget .olapic-wall-header .olapic-top .olapic-tools .olapic-upload:hover {
+.olapic__test .olapic-wall-widget .olapic-wall-header .olapic-top .olapic-tools .olapic-upload:hover
+{
     padding: 10px 17px;
+
     background: #43872f;
 }
-.olapic__test .olapic-wall-widget .olapic-nav {
+.olapic__test .olapic-wall-widget .olapic-nav
+{
     position: relative;
-    width: 100% !important;
-    margin: 0 auto; 
+
     clear: both;
+
+    width: 100% !important;
+    margin: 0 auto;
 }
-.olapic__test .olapic-wall-widget .olapic-nav .olapic-categories-title {
+.olapic__test .olapic-wall-widget .olapic-nav .olapic-categories-title
+{
     position: absolute;
     top: 18px; 
     left: 20px;
 }
-.olapic__test .olapic-wall-widget .olapic-nav .olapic-categories-title span {
+.olapic__test .olapic-wall-widget .olapic-nav .olapic-categories-title span
+{
     font-size: 14px;
     font-weight: bold;
+
     color: #5d5d5d;
 }
-.olapic__test .olapic-wall-widget .olapic-nav nav {
+.olapic__test .olapic-wall-widget .olapic-nav nav
+{
+    clear: both;
+
     width: 100%;
     width: 100%; 
     padding: 10px 0;
-    clear: both;
+
     border-top: 1px solid #454545;
     border-bottom: 1px solid #454545;
 }
-.olapic__test .olapic-wall-widget .olapic-nav .nav {
+.olapic__test .olapic-wall-widget .olapic-nav .nav
+{
     width: 100%; 
+
     text-align: center;
 }
-.olapic__test .olapic-wall-widget .olapic-nav .nav li {
+.olapic__test .olapic-wall-widget .olapic-nav .nav li
+{
     display: inline-block;
     float: none;
 }
-.olapic__test .olapic-wall-widget .olapic-nav .nav a {
-    padding: 6px 9px;
+.olapic__test .olapic-wall-widget .olapic-nav .nav a
+{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+
+    padding: 6px 9px;
+
     text-transform: uppercase;
+
     color: #fff;
     background: none;
 }
-.olapic__test .olapic-wall-widget .olapic-nav .nav a i {
+.olapic__test .olapic-wall-widget .olapic-nav .nav a i
+{
     display: none;
 }
-.olapic__test .olapic-wall-widget .olapic-nav .nav a:hover {
+.olapic__test .olapic-wall-widget .olapic-nav .nav a:hover
+{
     background: #aaa;
 }
-.olapic__test .olapic-wall-widget .olapic-header-column {
+.olapic__test .olapic-wall-widget .olapic-header-column
+{
     position: relative;
+
     float: left;
+
     width: 33%;
 }
-.olapic__test .olapic-wall-widget .sticky-menu .olapic-wall-header .olapic-nav {
+.olapic__test .olapic-wall-widget .sticky-menu .olapic-wall-header .olapic-nav
+{
     position: fixed;
     z-index: 9000;
 }
-.olapic__test .olapic-wall-widget .filter-btn {
-    float: left;
-    padding: 8px 13px !important;
-    margin: 2px;
+.olapic__test .olapic-wall-widget .filter-btn
+{
     font-size: 12px;
+
+    float: left;
+
+    margin: 2px;
+    padding: 8px 13px !important;
+
     color: #5f5f5f;
     border: 1px solid #d4d4d4;
     border-radius: 3px;
     background: #f5f5f5 !important;
 }
-.olapic__test .olapic-wall-widget .filter-btn:focus {
+.olapic__test .olapic-wall-widget .filter-btn:focus
+{
     border-color: #d4d4d4 !important;
 }
-.olapic__test .olapic-wall-widget .olapic-nav-sticky {
+.olapic__test .olapic-wall-widget .olapic-nav-sticky
+{
     position: fixed;
+    z-index: 1000;
     top: 0;
     right: 0;
-    z-index: 1000;
+
     display: none;
+
+    box-sizing: border-box; 
     width: 100%;
     padding: 10px;
-    box-sizing: border-box; 
+
     text-align: center;
+
     border-bottom: 1px solid #d7d7d7;
     background: rgba(255, 255, 255, .95);
 }
-.olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-open-sidebar {
+.olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-open-sidebar
+{
     display: none;
 }
-.olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-upload {
+.olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-upload
+{
     position: relative;
     left: 94px;
+
     display: inline-block;
     float: none;
+
     margin: 0 auto;
 }
-.olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-filter-sub {
+.olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-filter-sub
+{
     position: relative;
     top: 0;
+
     float: right;
+
     margin-right: 15px;
 }
-.olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-view {
+.olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-view
+{
     position: relative;
     top: 0;
     right: 0;
+
     float: right; 
+
     width: 100px;
 }
-.olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-view a {
+.olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-view a
+{
     float: left;
+
     width: 33px;
     height: 33px;
-    padding: 6px;
     margin: 2px;
+    padding: 6px;
+
     color: #000;
     border: 1px solid #454545;
     border-radius: 3px;
     background: #fff;
 }
-.olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-categories-title {
+.olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-categories-title
+{
     position: relative;
     top: 21px;
     left: 20px;
+
     float: left;
 }
-.olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-categories-title span {
+.olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-categories-title span
+{
     font-size: 14px;
     font-weight: bold;
+
     color: #5d5d5d;
 }
-.olapic__test .olapic-wall-widget .olapic-wall-list-container {
+.olapic__test .olapic-wall-widget .olapic-wall-list-container
+{
     position: relative;
-    padding: 10px 0 80px;
-    margin: 0 auto;
+
     overflow: hidden;
+
     box-sizing: border-box;
+    margin: 0 auto;
+    padding: 10px 0 80px;
+
     text-align: center;
 }
-.olapic__test .olapic-wall-widget .olapic-wall-body {
+.olapic__test .olapic-wall-widget .olapic-wall-body
+{
     position: relative;
+
     clear: both;
 }
-.olapic__test .olapic-wall-widget .olapic-wall-wrapper {
+.olapic__test .olapic-wall-widget .olapic-wall-wrapper
+{
     position: relative;
-    margin: 0 auto; 
+
     overflow: hidden;
+
+    margin: 0 auto;
 }
-.olapic__test .olapic-wall-widget .olapic-wall {
+.olapic__test .olapic-wall-widget .olapic-wall
+{
     position: relative;
-    padding: 0;
+
     margin: 0;
+    padding: 0;
+
     list-style: none;
     /* author info */
     /* packery image */
 }
-.olapic__test .olapic-wall-widget .olapic-wall .olapic-related-products {
+.olapic__test .olapic-wall-widget .olapic-wall .olapic-related-products
+{
     display: none;
 }
-.olapic__test .olapic-wall-widget .olapic-wall.grid .item {
+.olapic__test .olapic-wall-widget .olapic-wall.grid .item
+{
     position: relative;
+
     float: left;
+    overflow: hidden;
+
     width: 290px;
     height: 290px;
-    margin: 10px; 
-    overflow: hidden;
+    margin: 10px;
 }
-.olapic__test .olapic-wall-widget .olapic-wall.grid .item .olapic-item-media {
+.olapic__test .olapic-wall-widget .olapic-wall.grid .item .olapic-item-media
+{
     position: absolute;
     top: 0;
     left: 0;
+
     width: 100%;
     height: 100%;
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.olapic__test .olapic-wall-widget .olapic-wall .olapic-wall-type-video {
+.olapic__test .olapic-wall-widget .olapic-wall .olapic-wall-type-video
+{
     position: absolute;
     top: 0;
     left: 0; 
+
     width: 100%;
     height: 100%;
 }
-.olapic__test .olapic-wall-widget .olapic-wall .olapic-wall-type-video i {
+.olapic__test .olapic-wall-widget .olapic-wall .olapic-wall-type-video i
+{
     position: absolute;
+    z-index: 150;
     top: 50%;
     left: 50%;
-    z-index: 150;
+
     width: 65px;
     height: 68px;
     margin: -34px 0 0 -32px;
+
     cursor: pointer; 
+
     background: url('//photorankstatics-a.akamaihd.net/static/images/Viewer2/olapic/video-controls.png') no-repeat -38px -30px;
 }
-.olapic__test .olapic-wall-widget .olapic-wall .olapic-item-info {
+.olapic__test .olapic-wall-widget .olapic-wall .olapic-item-info
+{
     position: absolute;
     top: 0;
     left: 0;
+
     width: 100%;
     height: 100%;
+
     cursor: pointer;
+
     border: none !important;
 }
-.olapic__test .olapic-wall-widget .olapic-wall .olapic-permalink {
+.olapic__test .olapic-wall-widget .olapic-wall .olapic-permalink
+{
     display: block;
+
     width: 100%; 
     height: 100%;
 }
-.olapic__test .olapic-wall-widget .olapic-wall .olapic-moreinfo {
+.olapic__test .olapic-wall-widget .olapic-wall .olapic-moreinfo
+{
     position: absolute;
     bottom: 0;
+
     display: none;
+
     width: 100%;
     height: 77px;
+
     background: rgba(255, 255, 255, .9);
 }
 .olapic__test .olapic-wall-widget .olapic-wall .item:hover .olapic-moreinfo,
 .olapic__test .olapic-wall-widget .olapic-wall .item:hover .olapic-share,
-.olapic__test .olapic-wall-widget .olapic-wall .item:hover .olapic-btn-shopthislook {
+.olapic__test .olapic-wall-widget .olapic-wall .item:hover .olapic-btn-shopthislook
+{
     display: block;
 }
-.olapic__test .olapic-wall-widget .olapic-wall .olapic-user-pic {
+.olapic__test .olapic-wall-widget .olapic-wall .olapic-user-pic
+{
     position: relative;
     z-index: 2;
+
     float: left;
+
     width: 50px;
     height: 50px;
     margin: 13px 5px 13px 13px;
 }
-.olapic__test .olapic-wall-widget .olapic-wall .olapic-user-pic img {
+.olapic__test .olapic-wall-widget .olapic-wall .olapic-user-pic img
+{
     width: 50px;
     height: 50px;
 }
-.olapic__test .olapic-wall-widget .olapic-wall .olapic-user-info {
+.olapic__test .olapic-wall-widget .olapic-wall .olapic-user-info
+{
     position: relative;
     z-index: 2;
+
     float: left;
+
     width: 200px;
     height: 50px;
     margin: 13px 0 0;
+
     text-align: left;
 }
-.olapic__test .olapic-wall-widget .olapic-wall .olapic-user-info .olapic-user-name {
-    position: relative;
-    z-index: 2;
-    display: block;
-    max-width: 175px;
-    overflow: hidden; 
+.olapic__test .olapic-wall-widget .olapic-wall .olapic-user-info .olapic-user-name
+{
     font-size: 14px;
     font-weight: bold;
+
+    position: relative;
+    z-index: 2;
+
+    display: block;
+    overflow: hidden; 
+
+    max-width: 175px;
+
     white-space: nowrap;
     text-overflow: ellipsis;
+
     color: #000;
 }
-.olapic__test .olapic-wall-widget .olapic-wall .olapic-user-info .olapic-user-moreinfo {
-    margin: 4px 0;
+.olapic__test .olapic-wall-widget .olapic-wall .olapic-user-info .olapic-user-moreinfo
+{
     font-size: 11px;
+
+    margin: 4px 0;
+
     color: #000;
 }
-.olapic__test .olapic-wall-widget .olapic-wall .olapic-item-desc {
+.olapic__test .olapic-wall-widget .olapic-wall .olapic-item-desc
+{
     display: none;
 }
-.olapic__test .olapic-wall-widget .olapic-wall .olapic-btn-shopthislook {
+.olapic__test .olapic-wall-widget .olapic-wall .olapic-btn-shopthislook
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
     position: absolute;
     top: 10px;
     left: 10px;
+
     display: none;
+
     padding: 6px 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+
     color: #fff;
     border: 0;
     background: rgba(170, 170, 170, .8);
 }
-.olapic__test .olapic-wall-widget .olapic-wall .olapic-btn-shopthislook:hover {
+.olapic__test .olapic-wall-widget .olapic-wall .olapic-btn-shopthislook:hover
+{
     background: #aaa;
 }
-.olapic__test .olapic-wall-widget .olapic-wall.mode_packery {
+.olapic__test .olapic-wall-widget .olapic-wall.mode_packery
+{
     padding: 0 70px;
 }
-.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item {
+.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
+{
     position: relative; 
+
     width: 155px;
     height: 155px;
 }
-.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child {
+.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child
+{
     width: 330px;
     height: 330px;
 }
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8),
-.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(11) {
+.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(11)
+{
     width: 330px !important;
     height: 330px !important;
 }
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
-.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(12) {
+.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(12)
+{
     width: 155px;
     height: 155px;
 }
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-moreinfo,
-.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-share {
+.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-share
+{
     display: none;
 }
-.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-btn-shopthislook {
+.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-btn-shopthislook
+{
     left: 50%;
+
     margin: 0 0 0 -52px;
 }
-.olapic__test .olapic-wall-widget .hide_item {
+.olapic__test .olapic-wall-widget .hide_item
+{
     display: none;
 }
-.olapic__test .olapic-wall-widget .olapic-share {
+.olapic__test .olapic-wall-widget .olapic-share
+{
     position: absolute;
     top: 10px;
     right: 10px;
+
     display: none;
 }
-.olapic__test .olapic-wall-widget .olapic-share .btn {
+.olapic__test .olapic-wall-widget .olapic-share .btn
+{
     width: 30px;
     padding: 4px 6px;
 }
 .olapic__test .olapic-wall-widget .olapic-share .btn:hover,
-.olapic__test .olapic-wall-widget .olapic-share .btn:focus {
+.olapic__test .olapic-wall-widget .olapic-share .btn:focus
+{
     outline: none;
 }
-.olapic__test .olapic-wall-widget .olapic-share i {
+.olapic__test .olapic-wall-widget .olapic-share i
+{
     color: #fff;
 }
-.olapic__test .olapic-wall-widget .olapic-share .fb {
+.olapic__test .olapic-wall-widget .olapic-share .fb
+{
     background: rgba(59, 85, 159, .9);
 }
-.olapic__test .olapic-wall-widget .olapic-share .fb i::before {
+.olapic__test .olapic-wall-widget .olapic-share .fb i::before
+{
     font-family: 'olapic-icons';
+
     content: '';
 
     -webkit-font-smoothing: antialiased;
 }
-.olapic__test .olapic-wall-widget .olapic-share .fb:hover {
+.olapic__test .olapic-wall-widget .olapic-share .fb:hover
+{
     background: #3b559f;
 }
-.olapic__test .olapic-wall-widget .olapic-share .tw {
+.olapic__test .olapic-wall-widget .olapic-share .tw
+{
     background: rgba(94, 169, 221, .9);
 }
-.olapic__test .olapic-wall-widget .olapic-share .tw i::before {
+.olapic__test .olapic-wall-widget .olapic-share .tw i::before
+{
     font-family: 'olapic-icons';
+
     content: '';
 
     -webkit-font-smoothing: antialiased;
 }
-.olapic__test .olapic-wall-widget .olapic-share .tw:hover {
+.olapic__test .olapic-wall-widget .olapic-share .tw:hover
+{
     background: #5ea9dd;
 }
-.olapic__test .olapic-wall-widget .olapic-share .pt {
+.olapic__test .olapic-wall-widget .olapic-share .pt
+{
     background: rgba(201, 35, 45, .9);
 }
-.olapic__test .olapic-wall-widget .olapic-share .pt i::before {
+.olapic__test .olapic-wall-widget .olapic-share .pt i::before
+{
     font-family: 'olapic-icons';
+
     content: '';
 
     -webkit-font-smoothing: antialiased;
 }
-.olapic__test .olapic-wall-widget .olapic-share .pt:hover {
+.olapic__test .olapic-wall-widget .olapic-share .pt:hover
+{
     background: #c9232d;
 }
-.olapic__test .olapic-wall-widget .olapic-widget-main-loading:nth-child(2n-1) {
+.olapic__test .olapic-wall-widget .olapic-widget-main-loading:nth-child(2n-1)
+{
     background-color: #fff;
 }
-.olapic__test .olapic-wall-widget .olapic-widget-main-loading {
+.olapic__test .olapic-wall-widget .olapic-widget-main-loading
+{
     position: absolute;
     left: 104px;
+
     display: none;
+
     width: 50px;
     height: 50px;
     margin: 0 auto;
+
     transition: all .2s ease;
 }
-.olapic__test .olapic-wall-widget .loading-graph {
+.olapic__test .olapic-wall-widget .loading-graph
+{
     position: relative;
     top: calc(50% - 2.5px);
     left: calc(50% - 2.5px);
+
     width: 5px;
     height: 5px;
+
     border-radius: 50px;
 }
-.olapic__test .olapic-wall-widget .loading-graph::before {
+.olapic__test .olapic-wall-widget .loading-graph::before
+{
     position: absolute;
     top: -20px;
+
     width: 20px;
     height: 20px;
+
     content: '';
     -ms-transform-origin: 0 100%;
-    transform-origin: 0 100%;
+        transform-origin: 0 100%;
     animation: loading-graph 1.5s linear infinite; 
+
     border-top: 3px solid #d1d1d1;
     border-right: 3px solid #d1d1d1;
     border-radius: 0 50px 0 0;
 }
-.olapic__test .olapic-wall-widget .loading-graph::after {
+.olapic__test .olapic-wall-widget .loading-graph::after
+{
     position: absolute;
     top: 3px;
     right: 3px;
+
     width: 20px;
     height: 20px;
+
     content: '';
     -ms-transform-origin: 100% 0;
-    transform-origin: 100% 0;
+        transform-origin: 100% 0;
     animation: loading-graph 1.5s linear infinite; 
+
     border-bottom: 3px solid #d1d1d1;
     border-left: 3px solid #d1d1d1;
     border-radius: 0 0 0 50px;
 }
-.olapic__test .olapic-wall-widget .olapic-loadmore {
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    z-index: 900000;
-    display: none;
-    width: 155px;
-    padding: 10px 17px;
-    margin: 0 0 0 -75px;
+.olapic__test .olapic-wall-widget .olapic-loadmore
+{
     font-family: 'Helvetica', Arial, sans-serif;
     font-size: 14px;
+
+    position: absolute;
+    z-index: 900000;
+    bottom: 40px;
+    left: 50%;
+
+    display: none;
+
+    width: 155px;
+    margin: 0 0 0 -75px;
+    padding: 10px 17px;
+
     cursor: pointer; 
     text-align: center;
     text-transform: uppercase;
+
     color: #fff;
     border: 1px solid #000;
     border-radius: 0;
     background: #61bc46;
 }
-.olapic__test .olapic-wall-widget .olapic-wall-footer {
+.olapic__test .olapic-wall-widget .olapic-wall-footer
+{
     position: relative;
-    min-height: 60px; 
+
     clear: both;
+
+    min-height: 60px;
 }
-.olapic__test .olapic-wall-widget .olapic-footer-buttons {
+.olapic__test .olapic-wall-widget .olapic-footer-buttons
+{
     position: relative;
+
     width: 257px;
     margin: 0 auto;
 }
-.olapic__test .olapic-wall-widget .olapic-footer-button {
+.olapic__test .olapic-wall-widget .olapic-footer-button
+{
+    overflow: hidden;
+
     width: 126px;
     height: 35px;
-    overflow: hidden;
+
     background-color: #aaa;
     background-repeat: no-repeat;
     background-position: 8px 8px;
 }
-.olapic__test .olapic-wall-widget .olapic-footer-button a {
+.olapic__test .olapic-wall-widget .olapic-footer-button a
+{
+    font-size: 10px;
+    line-height: 34px;
+
     display: block;
+
     width: 100%;
     height: 100%;
     padding-left: 33px;
-    font-size: 10px;
-    line-height: 34px;
+
     text-align: left;
     text-decoration: none;
+
     color: #fff;
 }
-.olapic__test .olapic-wall-widget .newcopyright-olapic {
+.olapic__test .olapic-wall-widget .newcopyright-olapic
+{
+    line-height: 20px; 
+
     float: left;
+
     width: 100%;
     height: auto;
-    padding: 4px 0 0;
     margin: 20px 0 0;
-    line-height: 20px;
+    padding: 4px 0 0;
 }
-.olapic__test .olapic-wall-widget .newcopyright-olapic p {
+.olapic__test .olapic-wall-widget .newcopyright-olapic p
+{
     margin: 0;
+
     text-align: right;
 }
-.olapic__test .olapic-wall-widget .newcopyright-olapic a {
-    margin: 0;
+.olapic__test .olapic-wall-widget .newcopyright-olapic a
+{
     font-size: 12px;
     font-weight: bold;
+
+    margin: 0;
+
     text-decoration: none; 
+
     color: #fff !important;
     background-repeat: no-repeat;
     background-position: 100% 0;
 }
-.olapic__test .olapic-wall-widget .go-to-top {
+.olapic__test .olapic-wall-widget .go-to-top
+{
+    font-size: 1.5em;
+
     position: fixed;
+    z-index: 100;
     right: 15px;
     bottom: 20px;
-    z-index: 100;
+
     display: none;
+
     padding: 8px 5px;
-    font-size: 1.5em;
+
     opacity: .8; 
     color: #5d5d5d !important;
     border: 1px solid #d4d4d4;
     border-radius: 3px;
     background: #f5f5f5 !important;
 }
-.olapic__test .olapic-wall-widget .go-to-top:hover {
+.olapic__test .olapic-wall-widget .go-to-top:hover
+{
     text-decoration: none !important;
+
     opacity: 1;
 }
 
-@keyframes loading-graph {
-    0% {
-    	transform: rotate(0deg);
+@keyframes loading-graph
+{
+    0%
+    {
+        transform: rotate(0deg);
     }
-    100% {
-    	transform: rotate(360deg);
+    100%
+    {
+        transform: rotate(360deg);
     }
 }
 .olapic__test .olapic-ie a,
-.olapic__test .olapic-firefox a {
+.olapic__test .olapic-firefox a
+{
     outline: none;
 }
 
-@media (min-width: 1024px) and (max-width: 1199px) {
-    .olapic-wall-widget .olapic-wall.grid .item {
-    	display: inline-block; 
-    	float: none;
+@media (min-width: 1024px) and (max-width: 1199px)
+{
+    .olapic-wall-widget .olapic-wall.grid .item
+    {
+        display: inline-block; 
+        float: none;
     }
-    .olapic-wall-widget .olapic-wall.mode_packery {
-    	max-width: 1024px;
-    	margin: 0 auto;
+    .olapic-wall-widget .olapic-wall.mode_packery
+    {
+        max-width: 1024px;
+        margin: 0 auto;
     }
-    .olapic-wall-widget .olapic-wall.mode_packery .item {
-    	width: 135px;
-    	height: 135px;
+    .olapic-wall-widget .olapic-wall.mode_packery .item
+    {
+        width: 135px;
+        height: 135px;
     }
-    .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4n+4) {
-    	width: 280px;
-    	height: 280px;
+    .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4n+4)
+    {
+        width: 280px;
+        height: 280px;
     }
 }
 
-@media (max-width: 1023px) {
-    .olapic__test .olapic-wall-widget .olapic-wall.grid {
-    	max-width: 100%;
+@media (max-width: 1023px)
+{
+    .olapic__test .olapic-wall-widget .olapic-wall.grid
+    {
+        max-width: 100%;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.grid .item {
-    	display: inline-block; 
-    	float: none;
+    .olapic__test .olapic-wall-widget .olapic-wall.grid .item
+    {
+        display: inline-block; 
+        float: none;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery {
-    	padding: 10px;
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery
+    {
+        padding: 10px;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item {
-    	width: 160px;
-    	height: 160px;
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
+    {
+        width: 160px;
+        height: 160px;
     }
     .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child,
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8) {
-    	width: 337px !important;
-    	height: 337px !important;
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8)
+    {
+        width: 337px !important;
+        height: 337px !important;
     }
     .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(10) {
-    	width: 160px !important;
-    	height: 160px !important;
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(10)
+    {
+        width: 160px !important;
+        height: 160px !important;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(n+11) {
-    	display: none;
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(n+11)
+    {
+        display: none;
     }
 }
 
-@media (max-width: 767px) {
-    .olapic__test .dropdown {
-    	display: inline-block;
+@media (max-width: 767px)
+{
+    .olapic__test .dropdown
+    {
+        display: inline-block;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall-body {
-    	margin-top: 130px;
+    .olapic__test .olapic-wall-widget .olapic-wall-body
+    {
+        margin-top: 130px;
     }
-    .olapic__test .olapic-wall-widget .olapic-nav-sticky {
-    	position: fixed;
-    	top: 0;
-    	right: 0;
-    	z-index: 1000;
-    	display: none;
-    	width: 100%;
-    	padding: 0;
-    	opacity: .9; 
-    	border-bottom: 1px solid #454545;
-    	background: #fff;
+    .olapic__test .olapic-wall-widget .olapic-nav-sticky
+    {
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        right: 0;
+
+        display: none;
+
+        width: 100%;
+        padding: 0;
+
+        opacity: .9; 
+        border-bottom: 1px solid #454545;
+        background: #fff;
     }
     .olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-upload,
-    .olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-filter-sub {
-    	display: none;
+    .olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-filter-sub
+    {
+        display: none;
     }
-    .olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-view {
-    	position: static;
-    	float: right; 
-    	width: 98px;
+    .olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-view
+    {
+        position: static;
+
+        float: right; 
+
+        width: 98px;
     }
-    .olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-view a {
-    	padding: 15px;
-    	color: #454545;
-    	outline: none;
+    .olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-view a
+    {
+        padding: 15px;
+
+        color: #454545;
+        outline: none;
     }
-    .olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-categories-title {
-    	position: static;
-    	float: left;
-    	padding: 15px 0 0 15px;
+    .olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-categories-title
+    {
+        position: static;
+
+        float: left;
+
+        padding: 15px 0 0 15px;
     }
-    .olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-categories-title span {
-    	font-size: 14px;
-    	font-weight: bold;
-    	color: #454545;
+    .olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-categories-title span
+    {
+        font-size: 14px;
+        font-weight: bold;
+
+        color: #454545;
     }
-    .olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-open-sidebar {
-    	display: block; 
-    	float: left;
+    .olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-open-sidebar
+    {
+        display: block; 
+        float: left;
     }
-    .olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-open-sidebar a {
-    	float: left;
-    	padding: 15px;
-    	color: #fff;
-    	outline: none; 
-    	background: #aaa;
+    .olapic__test .olapic-wall-widget .olapic-nav-sticky .olapic-open-sidebar a
+    {
+        float: left;
+
+        padding: 15px;
+
+        color: #fff;
+        outline: none; 
+        background: #aaa;
     }
-    .olapic__test .olapic-wall-widget .olapic-nav-sticky .btn {
-    	float: left;
-    	border-right: 0;
-    	border-radius: 0;
+    .olapic__test .olapic-wall-widget .olapic-nav-sticky .btn
+    {
+        float: left;
+
+        border-right: 0;
+        border-radius: 0;
     }
-    .olapic__test .olapic-wall-widget .olapic-nav-sticky .btn.active {
-    	color: #fff;
-    	background: #aaa;
-    	box-shadow: none;
+    .olapic__test .olapic-wall-widget .olapic-nav-sticky .btn.active
+    {
+        color: #fff;
+        background: #aaa;
+        box-shadow: none;
     }
     .olapic__test .olapic-wall-widget .olapic-view-grid,
     .olapic__test .olapic-wall-widget .olapic-view-list,
-    .olapic__test .olapic-wall-widget .olapic-view-filter {
-    	font-size: 18px;
+    .olapic__test .olapic-wall-widget .olapic-view-filter
+    {
+        font-size: 18px;
     }
-    .olapic__test .olapic-wall-widget .view-btn {
-    	display: inline-block;
-    	padding: 15px;
-    	margin-bottom: 0;
-    	font-size: 14px;
-    	font-weight: normal;
-    	line-height: 1.42857;
-    	cursor: pointer; 
-    	text-align: center;
-    	vertical-align: middle;
-    	white-space: nowrap;
+    .olapic__test .olapic-wall-widget .view-btn
+    {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.42857;
+
+        display: inline-block;
+
+        margin-bottom: 0;
+        padding: 15px;
+
+        cursor: pointer; 
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.grid {
-    	max-width: 568px;
+    .olapic__test .olapic-wall-widget .olapic-wall.grid
+    {
+        max-width: 568px;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.grid .item {
-    	position: relative;
-    	width: 240px;
-    	height: 240px;
-    	margin: 5px;
+    .olapic__test .olapic-wall-widget .olapic-wall.grid .item
+    {
+        position: relative;
+
+        width: 240px;
+        height: 240px;
+        margin: 5px;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.grid .olapic-item-info {
-    	display: none;
+    .olapic__test .olapic-wall-widget .olapic-wall.grid .olapic-item-info
+    {
+        display: none;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item {
-    	width: 300px !important;
-    	height: 300px !important;
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
+    {
+        width: 300px !important;
+        height: 300px !important;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child {
-    	width: 100% !important;
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child
+    {
+        width: 100% !important;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4) {
-    	width: 300px !important;
-    	height: 300px !important;
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4)
+    {
+        width: 300px !important;
+        height: 300px !important;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(n+14) {
-    	display: none !important;
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(n+14)
+    {
+        display: none !important;
     }
 }
 
-@media (max-width: 568px) {
-    .olapic__test .olapic__test-header .olapic__test-header--title {
-    	font-size: 52px;
+@media (max-width: 568px)
+{
+    .olapic__test .olapic__test-header .olapic__test-header--title
+    {
+        font-size: 52px;
     }
-    .olapic__test .olapic__test-header .olapic__test-header--subtitle {
-    	margin: 0 0 15px; 
-    	font-size: 15px;
-    	letter-spacing: 10px;
+    .olapic__test .olapic__test-header .olapic__test-header--subtitle
+    {
+        font-size: 15px;
+
+        margin: 0 0 15px; 
+
+        letter-spacing: 10px;
     }
-    .olapic__test .olapic__test-header .olapic__test-header--hash {
-    	font-size: 22px;
-    	font-weight: bold; 
-    	color: #0af;
+    .olapic__test .olapic__test-header .olapic__test-header--hash
+    {
+        font-size: 22px;
+        font-weight: bold; 
+
+        color: #0af;
     }
-    .olapic__test .olapic__test-header .olapic__test-header--description {
-    	width: 100%; 
-    	max-width: 840px;
-    	margin: 15px auto 0;
-    	font-size: 14px;
+    .olapic__test .olapic__test-header .olapic__test-header--description
+    {
+        font-size: 14px;
+
+        width: 100%; 
+        max-width: 840px;
+        margin: 15px auto 0;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery {
-    	padding: 0;
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery
+    {
+        padding: 0;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.grid {
-    	max-width: 100%;
-    	margin: 0;
+    .olapic__test .olapic-wall-widget .olapic-wall.grid
+    {
+        max-width: 100%;
+        margin: 0 0 0 60px;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.grid .item {
-    	width: 130px !important; 
-    	height: 130px !important;
+    .olapic__test .olapic-wall-widget .olapic-wall.grid .item
+    {
+        width: 130px !important; 
+        height: 130px !important;
     }
     .olapic__test .olapic-wall-widget .olapic-wall.grid .item:first-child,
-    .olapic__test .olapic-wall-widget .olapic-wall.grid .item:nth-child(6) {
-    	width: 270px !important;
-    	height: 270px !important;
+    .olapic__test .olapic-wall-widget .olapic-wall.grid .item:nth-child(6)
+    {
+        width: 270px !important;
+        height: 270px !important;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.grid .item:nth-child(4) {
-    	width: 130px !important; 
-    	height: 130px !important;
+    .olapic__test .olapic-wall-widget .olapic-wall.grid .item:nth-child(4)
+    {
+        width: 130px !important; 
+        height: 130px !important;
     }
     .olapic__test .olapic-wall-widget .olapic-wall.grid .item:nth-child(7),
     .olapic__test .olapic-wall-widget .olapic-wall.grid .item:nth-child(8),
     .olapic__test .olapic-wall-widget .olapic-wall.grid .item:nth-child(9),
-    .olapic__test .olapic-wall-widget .olapic-wall.grid .item:nth-child(10) {
-    	display: none !important;
+    .olapic__test .olapic-wall-widget .olapic-wall.grid .item:nth-child(10)
+    {
+        display: none !important;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.grid .olapic-item-info {
-    	display: none;
+    .olapic__test .olapic-wall-widget .olapic-wall.grid .olapic-item-info
+    {
+        display: none;
     }
 }
 
-@font-face {
+@font-face
+{
     font-family: 'olapic-icons';
 
     src: url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/olapic-icons.eot');
     src: url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/olapic-icons.eot') format('embedded-opentype'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/olapic-icons.woff') format('woff'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/olapic-icons.ttf') format('truetype'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/olapic-icons.svg#olapic-icons') format('svg');
 }
 
-@font-face {
+@font-face
+{
     font-family: 'Roboto';
 
     src: url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/Roboto.eot');
     src: url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/Roboto.woff2') format('woff2'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/Roboto.woff') format('woff'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/Roboto.ttf') format('truetype'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/Roboto.svg#Roboto') format('svg');
 }
 
-@font-face {
+@font-face
+{
     font-family: 'RobotoLight';
 
     src: url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/RobotoLight.eot');
@@ -864,14 +1175,18 @@ html {
 }
 
 [class^='icon-']::before,
-[class*=' icon-']::before {
-    display: inline-block;
-    width: 1em;
-    margin-right: .2em;
+[class*=' icon-']::before
+{
     font-weight: normal;
     font-style: normal;
     font-variant: normal;
     line-height: 1em; 
+
+    display: inline-block;
+
+    width: 1em;
+    margin-right: .2em;
+
     text-align: center;
     text-decoration: inherit;
     text-transform: none;
@@ -879,58 +1194,82 @@ html {
     speak: none;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px)
+{
     /* Dropdown Button */
-    .dropbtn {
-    	padding: 16px;
-    	font-size: 16px;
-    	cursor: pointer;
-    	color: white;
-    	border: none;
-    	outline: none; 
-    	background-color: #222;
+    .dropbtn
+    {
+        font-size: 16px;
+
+        padding: 16px;
+
+        cursor: pointer;
+
+        color: white;
+        border: none;
+        outline: none; 
+        background-color: #222;
     }
-    .dropbtn:after {
-    	margin-left: 5px; 
-    	font-family: 'olapic-icons';
-    	content: '\e815';
+    .dropbtn:after
+    {
+        font-family: 'olapic-icons';
+
+        margin-left: 5px; 
+
+        content: '\e815';
     }
     .dropbtn:hover,
-    .dropbtn:focus {
-    	background-color: #222;
+    .dropbtn:focus
+    {
+        background-color: #222;
     }
     /* The container <div> - needed to position the dropdown content */
-    .dropdown {
-    	position: absolute;
-    	z-index: 999; 
-    	display: inline-block;
-    	margin: 80px 0 0 -55px;
-    	font-family: Arial, helvetica, sans-serif;
+    .dropdown
+    {
+        font-family: Arial, helvetica, sans-serif;
+
+        position: absolute;
+        z-index: 999; 
+
+        display: inline-block;
+
+        margin: 80px 0 0 -55px;
     }
     .dropdown:hover,
-    .dropdown:active {
-    	border: none;
+    .dropdown:active
+    {
+        border: none;
     }
     /* Dropdown Content (Hidden by Default) */
-    .dropdown-content {
-    	position: absolute;
-    	display: none;
-    	min-width: 160px;
-    	margin-left: -30px; 
-    	background-color: #222;
-    	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
+    .dropdown-content
+    {
+        position: absolute;
+
+        display: none;
+
+        min-width: 160px;
+        margin-left: -30px; 
+
+        background-color: #222;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
     }
-    .dropdown-content a {
-    	display: block; 
-    	padding: 12px 16px;
-    	text-decoration: none;
-    	color: #fff;
+    .dropdown-content a
+    {
+        display: block; 
+
+        padding: 12px 16px;
+
+        text-decoration: none;
+
+        color: #fff;
     }
-    .dropdown-content a a:hover {
-    	background-color: #111;
+    .dropdown-content a a:hover
+    {
+        background-color: #111;
     }
     /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-    .show {
-    	display: block;
+    .show
+    {
+        display: block;
     }
 }
