@@ -560,31 +560,32 @@ html
 }
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery
 {
+    width: 100%; 
     padding: 0 70px;
 }
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
 {
     position: relative; 
 
-    width: 155px;
-    height: 155px;
+    width: 150px;
+    height: 150px;
 }
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child
 {
-    width: 330px;
-    height: 330px;
+    width: 320px;
+    height: 320px;
 }
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8),
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(11)
 {
-    width: 330px !important;
-    height: 330px !important;
+    width: 320px !important;
+    height: 320px !important;
 }
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(12)
 {
-    width: 155px;
-    height: 155px;
+    width: 150px;
+    height: 150px;
 }
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-moreinfo,
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-share

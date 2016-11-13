@@ -1,0 +1,184 @@
+@media (max-width: 1200px) {
+.olapic__test {
+
+        .olapic-wall-widget {
+
+            .olapic-wall {
+                /* packery image */
+                &.mode_packery {
+                    padding: 0 30px!important;
+
+                    .item {
+                        width: 20%!important;
+                        height: 20%!important;
+                        position: relative;
+
+                        &:first-child {
+                            width: 260px!important;
+                            height: 260px!important;
+                        }
+
+                        &:nth-child(8),
+                        &:nth-child(11) {
+                            width: 260px!important;
+                            height: 260px!important; 
+                        }
+
+                        &:nth-child(4),
+                        &:nth-child(12),
+                        &:nth-child(15){
+                            width: 20%!important;
+                            height: 20%!important;
+                        }
+
+                        .olapic-moreinfo,
+                        .olapic-share {
+                            display: none;
+                        }
+
+                        .olapic-btn-shopthislook {
+                            left: 50%;
+                            margin: 0 0 0 -52px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media (max-width: 1205px) {
+.olapic__test {
+
+        .olapic-wall-widget {
+
+            .olapic-wall {
+                /* packery image */
+                &.mode_packery {
+                    padding: 0 70px;
+
+                    .item {
+                        width: 120px!important;
+                        height: 120px!important;
+                        position: relative;
+
+                        &:first-child {
+                            width: 260px!important;
+                            height: 260px!important;
+                        }
+
+                        &:nth-child(8),
+                        &:nth-child(11) {
+                            width: 260px!important;
+                            height: 260px!important; 
+                        }
+
+                        &:nth-child(4),
+                        &:nth-child(12),
+                        &:nth-child(15){
+                            width: 120px!important;
+                            height: 120px!important;
+                        }
+
+                        .olapic-moreinfo,
+                        .olapic-share {
+                            display: none;
+                        }
+
+                        .olapic-btn-shopthislook {
+                            left: 50%;
+                            margin: 0 0 0 -52px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+.olapic__test {
+
+        .olapic-wall-widget {
+
+            .olapic-wall {
+
+                &.grid {
+                    .item {
+
+                        float: none;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+
+.olapic__test {
+
+        .olapic-wall-widget {
+
+            .olapic-wall {
+
+                &.grid {
+
+                    .item {
+                        float: none;
+                        display: inline-block;
+                    }
+                }
+
+                &.mode_packery {
+                    padding: 0 70px;
+
+                    .item {
+                        width: 120px!important;
+                        height: 120px!important;
+                        position: relative;
+
+                        &:first-child {
+                            width: 260px!important;
+                            height: 260px!important;
+                        }
+
+                        &:nth-child(8),
+                        &:nth-child(11) {
+                            width: 260px!important;
+                            height: 260px!important; 
+                        }
+
+                        &:nth-child(4),
+                        &:nth-child(12),
+                        &:nth-child(15){
+                            width: 120px!important;
+                            height: 120px!important;
+                        }
+
+                        .olapic-moreinfo,
+                        .olapic-share {
+                            display: none;
+                        }
+
+                        .olapic-btn-shopthislook {
+                            left: 50%;
+                            margin: 0 0 0 -52px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media (max-width: 932px) {
+    body {
+        background: #fff;
+    }
+}

@@ -1,0 +1,142 @@
+@media (max-width: 635px) {
+    body {
+        background: brown;
+    }
+
+    .olapic__test {
+
+        .olapic-wall-widget {
+
+            .olapic-wall {
+
+                   &.mode_packery {
+
+                    .item {
+                        width: 120px!important;
+                        height: 120px!important;
+
+                        &:first-child,
+                        &:nth-child(8) {
+                            width: 250px!important;
+                            height: 250px!important;
+                        }
+
+                        &:nth-child(4),
+                        &:nth-child(10) {
+                            width: 120px!important;
+                            height: 120px!important;      
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 568px) {
+    body {
+        background: black;
+    }
+
+    .olapic__test {
+
+        .olapic-wall-widget {
+
+            .olapic-wall {
+
+                   &.mode_packery {
+
+                    .item {
+                        width: 100px!important;
+                        height: 100px!important;
+
+                        &:first-child,
+                        &:nth-child(8) {
+                            width: 210px!important;
+                            height: 210px!important;
+                        }
+
+                        &:nth-child(4),
+                        &:nth-child(10) {
+                            width: 100px!important;
+                            height: 100px!important;      
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+
+    .olapic__test {
+        .olapic__test-header {
+            .olapic__test-header--title {
+                font-size: 52px;
+            }
+
+            .olapic__test-header--subtitle {
+                font-size: 15px;
+                letter-spacing: 10px;
+                margin: 0 0 15px;
+            }
+
+            .olapic__test-header--hash {
+                color: #00aaff;
+                font-size: 22px;
+                font-weight: bold;
+            }
+
+            .olapic__test-header--description {
+                font-size: 14px;
+                margin: 15px auto 0;
+                max-width: 840px;
+                width: 100%;
+            }
+
+        }
+
+        .olapic-wall-widget {
+
+            .olapic-wall {
+
+                &.mode_packery {
+                    padding: 0;
+                }
+                &.grid {
+
+                    .item {
+                        height: 130px!important;
+                        width: 130px!important;
+
+                        &:first-child,
+                        &:nth-child(6) {
+                            width: 270px!important;
+                            height: 270px!important;
+                        }
+
+                        &:nth-child(4) {
+                            height: 130px!important;
+                            width: 130px!important; 
+                        }
+
+                        &:nth-child(7),
+                        &:nth-child(8),
+                        &:nth-child(9),
+                        &:nth-child(10),
+                         {
+                            display: none!important;
+                        }
+                    }
+
+                    .olapic-item-info {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

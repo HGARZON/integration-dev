@@ -463,27 +463,28 @@ html {
             /* packery image */
             &.mode_packery {
                 padding: 0 70px;
+                width: 100%;
 
                 .item {
-                    width: 155px;
-                    height: 155px;
+                    width: 150px;
+                    height: 150px;
                     position: relative;
 
                     &:first-child {
-                        width: 330px;
-                        height: 330px;
+                        width: 320px;
+                        height: 320px;
                     }
 
                     &:nth-child(8),
                     &:nth-child(11) {
-                        width: 330px!important;
-                        height: 330px!important; 
+                        width: 320px!important;
+                        height: 320px!important; 
                     }
 
                     &:nth-child(4),
                     &:nth-child(12){
-                        width: 155px;
-                        height: 155px;
+                        width: 150px;
+                        height: 150px;
                     }
 
                     .olapic-moreinfo,
