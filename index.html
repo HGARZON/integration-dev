@@ -28,31 +28,25 @@
 			<p class="olapic__test-header--description">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent leo justo, aliquam quis congue sit amet, sagittis at quam. Suspendisse sem mauris, rutrum at dui sit amet, gravida aliquam enim. Maecenas non mi egestas, dapibus tortor sit amet, fermentum urna. Aliquam ac tincidunt libero. Sed porta nisi id elementum scelerisque. Etiam luctus justo sit amet convallis porttitor. Ut turpis augue, efficitur in nisl ac, volutpat commodo mauris.
 			</p>
-			<div class="dropdown">
-			  <button onclick="myFunction()" class="dropbtn">WOMENS</button>
-			  <div id="myDropdown" class="dropdown-content">
-			    <a data-id="655329" data-name="Mens" data-page="1" href="#">MENS</a>
-			    <a data-id="655330" data-name="Kids" data-page="1" href="#">KIDS</a>
-			    <a data-id="655331" data-name="Accessories" data-page="1" href="#">ACCESORIES</a>
-			  </div>
-			</div>
 		</header>
 		<main id="olapic_specific_widget"></main>
-		<script type="text/javascript" src="https://photorankstatics-a.akamaihd.net/81b03e40475846d5883661ff57b34ece/static/frontend/latest/build.min.js"  data-olapic="olapic_specific_widget" data-instance="750e9a473a7957735eb7590e7fc6e289" data-apikey="0daf989524ec261bb7dfa87e68b6feb3fe3f739b996d7a69266a6fef6ab2df05" async="async"></script>
+		<script type="text/javascript" src="https://photorankstatics-a.akamaihd.net/81b03e40475846d5883661ff57b34ece/static/frontend/latest/build.min.js"  data-olapic="olapic_specific_widget" data-instance="750e9a473a7957735eb7590e7fc6e289" data-apikey="0daf989524ec261bb7dfa87e68b6feb3fe3f739b996d7a69266a6fef6ab2df05"></script>
 	</div>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 	<script type="text/javascript">
+
 		/* When the user clicks on the button, 
 		toggle between hiding and showing the dropdown content */
 		function myFunction() {
-		    document.getElementById("myDropdown").classList.toggle("show");
+		    $('.nav.nav-pills').toggleClass("show");
 		}
-
+			
 		// Close the dropdown menu if the user clicks outside of it
-		window.onclick = function(event) {
-		  	if (!event.target.matches('.dropbtn')) {
+		$(document).click(function(event) {
 
-		    	var dropdowns = $(".dropdown-content");
+		  	if (!event.target.matches('.olapic-filters-btn')) {
+
+		    	var dropdowns = $(".nav.nav-pills");
 		    	var i;
 		    	for (i = 0; i < dropdowns.length; i++) {
 		     		var openDropdown = dropdowns[i];
@@ -60,8 +54,26 @@
 		        		openDropdown.classList.remove('show');
 		      		}
 		    	}
+
 		  	}
-		}
+
+		});
+
+		$(document).ready (function(){
+
+			function showNav() {
+				if ($(window).width() < 768) {
+
+					$('.olapic-nav').css('display', 'block');
+					$('#olapic-filters').before('<button onclick="myFunction()" class="olapic-filters-btn"></button>')
+
+				}
+				
+			}
+
+			setTimeout(showNav, 2000)
+
+		})
 	</script>
 </body>
 </html>

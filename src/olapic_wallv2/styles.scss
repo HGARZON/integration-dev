@@ -3,8 +3,10 @@
 
 // Partials
 @import 'partials/main';
-@import 'partials/responsive';
 @import 'partials/fonts';
+@import 'partials/responsive/responsive__large';
+@import 'partials/responsive/responsive__medium';
+@import 'partials/responsive/responsive__small';
 
 @media only screen and (max-width: 767px) {
 	@import 'partials/dropdown';

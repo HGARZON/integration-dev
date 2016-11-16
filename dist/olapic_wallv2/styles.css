@@ -875,36 +875,157 @@ html
     outline: none;
 }
 
+@font-face
+{
+    font-family: 'olapic-icons';
+
+    src: url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/olapic-icons.eot');
+    src: url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/olapic-icons.eot') format('embedded-opentype'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/olapic-icons.woff') format('woff'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/olapic-icons.ttf') format('truetype'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/olapic-icons.svg#olapic-icons') format('svg');
+}
+
+@font-face
+{
+    font-family: 'Roboto';
+
+    src: url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/Roboto.eot');
+    src: url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/Roboto.woff2') format('woff2'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/Roboto.woff') format('woff'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/Roboto.ttf') format('truetype'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/Roboto.svg#Roboto') format('svg');
+}
+
+@font-face
+{
+    font-family: 'RobotoLight';
+
+    src: url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/RobotoLight.eot');
+    src: url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/RobotoLight.woff2') format('woff2'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/RobotoLight.woff') format('woff'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/RobotoLight.ttf') format('truetype'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/RobotoLight.svg#RobotoLight') format('svg');
+}
+
+[class^='icon-']::before,
+[class*=' icon-']::before
+{
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1em; 
+
+    display: inline-block;
+
+    width: 1em;
+    margin-right: .2em;
+
+    text-align: center;
+    text-decoration: inherit;
+    text-transform: none;
+
+    speak: none;
+}
+
+@media (max-width: 1200px)
+{
+    .olapic__test .olapic-wall-widget .olapic-wall
+    {
+        /* packery image */
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery
+    {
+        padding: 0 30px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
+    {
+        position: relative; 
+
+        width: 20% !important;
+        height: 20% !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child
+    {
+        width: 260px !important;
+        height: 260px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8),
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(11)
+    {
+        width: 260px !important;
+        height: 260px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(12),
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(15)
+    {
+        width: 20% !important;
+        height: 20% !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-moreinfo,
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-share
+    {
+        display: none;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-btn-shopthislook
+    {
+        left: 50%;
+
+        margin: 0 0 0 -52px;
+    }
+}
+
+@media (max-width: 1205px)
+{
+    .olapic__test .olapic-wall-widget .olapic-wall
+    {
+        /* packery image */
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery
+    {
+        padding: 0 70px;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
+    {
+        position: relative; 
+
+        width: 120px !important;
+        height: 120px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child
+    {
+        width: 260px !important;
+        height: 260px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8),
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(11)
+    {
+        width: 260px !important;
+        height: 260px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(12),
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(15)
+    {
+        width: 120px !important;
+        height: 120px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-moreinfo,
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-share
+    {
+        display: none;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-btn-shopthislook
+    {
+        left: 50%;
+
+        margin: 0 0 0 -52px;
+    }
+}
+
 @media (min-width: 1024px) and (max-width: 1199px)
 {
-    .olapic-wall-widget .olapic-wall.grid .item
+    .olapic__test .olapic-wall-widget .olapic-wall.grid .item
     {
         display: inline-block; 
         float: none;
-    }
-    .olapic-wall-widget .olapic-wall.mode_packery
-    {
-        max-width: 1024px;
-        margin: 0 auto;
-    }
-    .olapic-wall-widget .olapic-wall.mode_packery .item
-    {
-        width: 135px;
-        height: 135px;
-    }
-    .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4n+4)
-    {
-        width: 280px;
-        height: 280px;
     }
 }
 
 @media (max-width: 1023px)
 {
-    .olapic__test .olapic-wall-widget .olapic-wall.grid
-    {
-        max-width: 100%;
-    }
     .olapic__test .olapic-wall-widget .olapic-wall.grid .item
     {
         display: inline-block; 
@@ -912,34 +1033,49 @@ html
     }
     .olapic__test .olapic-wall-widget .olapic-wall.mode_packery
     {
-        padding: 10px;
+        padding: 0 70px;
     }
     .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
     {
-        width: 160px;
-        height: 160px;
+        position: relative; 
+
+        width: 120px !important;
+        height: 120px !important;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child,
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8)
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child
     {
-        width: 337px !important;
-        height: 337px !important;
+        width: 260px !important;
+        height: 260px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8),
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(11)
+    {
+        width: 260px !important;
+        height: 260px !important;
     }
     .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(10)
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(12),
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(15)
     {
-        width: 160px !important;
-        height: 160px !important;
+        width: 120px !important;
+        height: 120px !important;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(n+11)
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-moreinfo,
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-share
     {
         display: none;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-btn-shopthislook
+    {
+        left: 50%;
+
+        margin: 0 0 0 -52px;
     }
 }
 
 @media (max-width: 767px)
 {
-    .olapic__test .dropdown
+    .olapic__test .olapic-wall-widget .olapic-wall-header .olapic-nav
     {
         display: inline-block;
     }
@@ -1050,7 +1186,7 @@ html
     }
     .olapic__test .olapic-wall-widget .olapic-wall.grid
     {
-        max-width: 568px;
+        max-width: 748px;
     }
     .olapic__test .olapic-wall-widget .olapic-wall.grid .item
     {
@@ -1066,17 +1202,20 @@ html
     }
     .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
     {
-        width: 300px !important;
-        height: 300px !important;
+        width: 170px !important;
+        height: 170px !important;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child,
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8)
     {
-        width: 100% !important;
+        width: 320px !important;
+        height: 350px !important;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4)
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(10)
     {
-        width: 300px !important;
-        height: 300px !important;
+        width: 170px !important;
+        height: 170px !important;
     }
     .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(n+14)
     {
@@ -1084,7 +1223,139 @@ html
     }
 }
 
+@media (max-width: 725px)
+{
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
+    {
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child,
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8)
+    {
+        width: 320px !important;
+        height: 310px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(10)
+    {
+        width: 150px !important;
+        height: 150px !important;
+    }
+}
+
+@media (max-width: 685px)
+{
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
+    {
+        width: 130px !important;
+        height: 130px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child,
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8)
+    {
+        width: 270px !important;
+        height: 270px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(10)
+    {
+        width: 130px !important;
+        height: 130px !important;
+    }
+}
+
+@media (max-width: 685px)
+{
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
+    {
+        width: 140px !important;
+        height: 140px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child,
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8)
+    {
+        width: 290px !important;
+        height: 290px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(10)
+    {
+        width: 140px !important;
+        height: 140px !important;
+    }
+}
+
+@media (max-width: 635px)
+{
+    .olapic__test .olapic-wall-widget .olapic-nav
+    {
+        text-align: center;
+    }
+    .olapic__test .olapic-wall-widget .olapic-nav .nav li
+    {
+        z-index: 999; 
+
+        display: block;
+
+        background: #222;
+    }
+    .olapic__test .olapic-wall-widget .olapic-nav .nav li:hover
+    {
+        background: #000;
+    }
+    .olapic__test .olapic-wall-widget .olapic-nav .nav li a
+    {
+        color: #fff;
+    }
+    .olapic__test .olapic-wall-widget .olapic-nav .nav.nav-pills
+    {
+        width: 50px; 
+        margin: 0 auto;
+
+        box-shadow: none;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
+    {
+        width: 120px !important;
+        height: 120px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child,
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8)
+    {
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(10)
+    {
+        width: 120px !important;
+        height: 120px !important;
+    }
+}
+
 @media (max-width: 568px)
+{
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
+    {
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child,
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8)
+    {
+        width: 210px !important;
+        height: 210px !important;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
+    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(10)
+    {
+        width: 100px !important;
+        height: 100px !important;
+    }
+}
+
+@media (max-width: 420px)
 {
     .olapic__test .olapic__test-header .olapic__test-header--title
     {
@@ -1117,11 +1388,6 @@ html
     {
         padding: 0;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.grid
-    {
-        max-width: 100%;
-        margin: 0 0 0 60px;
-    }
     .olapic__test .olapic-wall-widget .olapic-wall.grid .item
     {
         width: 130px !important; 
@@ -1151,100 +1417,50 @@ html
     }
 }
 
-@font-face
-{
-    font-family: 'olapic-icons';
-
-    src: url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/olapic-icons.eot');
-    src: url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/olapic-icons.eot') format('embedded-opentype'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/olapic-icons.woff') format('woff'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/olapic-icons.ttf') format('truetype'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/olapic-icons.svg#olapic-icons') format('svg');
-}
-
-@font-face
-{
-    font-family: 'Roboto';
-
-    src: url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/Roboto.eot');
-    src: url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/Roboto.woff2') format('woff2'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/Roboto.woff') format('woff'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/Roboto.ttf') format('truetype'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/Roboto.svg#Roboto') format('svg');
-}
-
-@font-face
-{
-    font-family: 'RobotoLight';
-
-    src: url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/RobotoLight.eot');
-    src: url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/RobotoLight.woff2') format('woff2'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/RobotoLight.woff') format('woff'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/RobotoLight.ttf') format('truetype'), url('https://photorankstatics-a.akamaihd.net/static/frontend/assets/olapic/RobotoLight.svg#RobotoLight') format('svg');
-}
-
-[class^='icon-']::before,
-[class*=' icon-']::before
-{
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
-    line-height: 1em; 
-
-    display: inline-block;
-
-    width: 1em;
-    margin-right: .2em;
-
-    text-align: center;
-    text-decoration: inherit;
-    text-transform: none;
-
-    speak: none;
-}
-
 @media only screen and (max-width: 767px)
 {
     /* Dropdown Button */
-    .dropbtn
+    .olapic-filters-btn
     {
-        font-size: 16px;
+        font-size: 0;
 
-        padding: 16px;
+        display: inline-block;
+
+        padding: 0;
 
         cursor: pointer;
 
-        color: white;
+        color: #fff;
         border: none;
         outline: none; 
         background-color: #222;
     }
-    .dropbtn:after
+    .olapic-filters-btn:after
     {
         font-family: 'olapic-icons';
 
         margin-left: 5px; 
 
         content: '\e815';
+
+        color: #fff;
     }
-    .dropbtn:hover,
-    .dropbtn:focus
+    .olapic-filters-btn:hover,
+    .olapic-filters-btn:focus
     {
         background-color: #222;
     }
     /* The container <div> - needed to position the dropdown content */
-    .dropdown
+    #olapic-filters
     {
-        font-family: Arial, helvetica, sans-serif;
+        display: inline-block; 
 
-        position: absolute;
-        z-index: 999; 
-
-        display: inline-block;
-
-        margin: 80px 0 0 -55px;
-    }
-    .dropdown:hover,
-    .dropdown:active
-    {
         border: none;
     }
     /* Dropdown Content (Hidden by Default) */
-    .dropdown-content
+    .nav.nav-pills
     {
-        position: absolute;
+        position: relative;
 
         display: none;
 
@@ -1254,7 +1470,7 @@ html
         background-color: #222;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
     }
-    .dropdown-content a
+    .nav.nav-pills a
     {
         display: block; 
 
@@ -1264,7 +1480,7 @@ html
 
         color: #fff;
     }
-    .dropdown-content a a:hover
+    .nav.nav-pills a a:hover
     {
         background-color: #111;
     }

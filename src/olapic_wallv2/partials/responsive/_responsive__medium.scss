@@ -1,10 +1,15 @@
 @media (max-width: 767px) {
     .olapic__test {
-        .dropdown {
-            display: inline-block;
-        }
 
         .olapic-wall-widget {
+
+            .olapic-wall-header {
+
+                .olapic-nav {
+                    display: inline-block;
+                }
+
+            }
 
             .olapic-wall-body {
                 margin-top: 130px;

@@ -1,11 +1,38 @@
 @media (max-width: 635px) {
-    body {
-        background: brown;
-    }
 
     .olapic__test {
 
         .olapic-wall-widget {
+
+            .olapic-nav {
+                text-align: center;
+
+                .nav {
+
+                    li {
+                        background: #222;
+                        display: block;
+                        z-index: 999;
+
+                        &:hover {
+                            background: #000;
+                        }
+
+                        a {
+                            color: #fff;
+                        }
+
+                    }
+
+                    &.nav-pills {
+                        box-shadow:none;
+                        margin: 0 auto;
+                        width: 50px;
+                    }
+
+                }
+            
+            }
 
             .olapic-wall {
 
@@ -35,9 +62,6 @@
 }
 
 @media (max-width: 568px) {
-    body {
-        background: black;
-    }
 
     .olapic__test {
 
