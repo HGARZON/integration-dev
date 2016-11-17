@@ -54,9 +54,7 @@
 		        		openDropdown.classList.remove('show');
 		      		}
 		    	}
-
 		  	}
-
 		});
 
 		$(document).ready (function(){
@@ -65,7 +63,7 @@
 				if ($(window).width() < 768) {
 
 					$('.olapic-nav').css('display', 'block');
-					$('#olapic-filters').before('<button onclick="myFunction()" class="olapic-filters-btn"></button>')
+					$('#olapic-filters').after('<button onclick="myFunction()" class="olapic-filters-btn"><span id="olapic-filters-btn-title">Womens</span></button>')
 
 				}
 				

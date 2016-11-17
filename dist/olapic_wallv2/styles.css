@@ -1290,7 +1290,12 @@ html
 {
     .olapic__test .olapic-wall-widget .olapic-nav
     {
+        padding-bottom: 15px; 
+
         text-align: center;
+
+        border-top: 1px solid #454545;
+        border-bottom: 1px solid #454545;
     }
     .olapic__test .olapic-wall-widget .olapic-nav .nav li
     {
@@ -1306,7 +1311,13 @@ html
     }
     .olapic__test .olapic-wall-widget .olapic-nav .nav li a
     {
+        font-size: 16px; 
+
         color: #fff;
+    }
+    .olapic__test .olapic-wall-widget .olapic-nav .nav li a:hover
+    {
+        color: #222;
     }
     .olapic__test .olapic-wall-widget .olapic-nav .nav.nav-pills
     {
@@ -1450,22 +1461,37 @@ html
     {
         background-color: #222;
     }
+    #olapic-filters-btn-title
+    {
+        font-size: 16px;
+
+        text-transform: uppercase; 
+
+        color: #fff;
+    }
     /* The container <div> - needed to position the dropdown content */
     #olapic-filters
     {
-        display: inline-block; 
+        display: inline-block;
+
+        padding: 0; 
 
         border: none;
     }
     /* Dropdown Content (Hidden by Default) */
     .nav.nav-pills
     {
-        position: relative;
+        position: absolute;
+        z-index: 999; 
+        left: 50%;
 
         display: none;
 
         min-width: 160px;
-        margin-left: -30px; 
+        margin-left: -30px;
+
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
 
         background-color: #222;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
