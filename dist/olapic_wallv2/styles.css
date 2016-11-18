@@ -1124,6 +1124,16 @@ html
     {
         color: #222;
     }
+    .olapic__test .olapic-wall-widget .olapic-nav .nav li:first-child a:after
+    {
+        font-family: 'olapic-icons';
+
+        margin-left: 5px; 
+
+        content: '\e815';
+
+        color: #fff;
+    }
     .olapic__test .olapic-wall-widget .olapic-nav .nav.nav-pills
     {
         width: 50px; 
@@ -1144,10 +1154,6 @@ html
     {
         margin-right: 10px;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall-body .olapic-wall-list-container .olapic-wall.mode_packery .item:first-child
-    {
-        margin-left: 0;
-    }
     .olapic__test .olapic-wall-widget .olapic-wall-body .olapic-wall-list-container .olapic-wall.mode_packery .item:nth-child(4)
     {
         margin-right: 0;
@@ -1155,8 +1161,9 @@ html
     .olapic__test .olapic-wall-widget .olapic-wall-body .olapic-wall-list-container .olapic-wall.mode_packery .item:first-child,
     .olapic__test .olapic-wall-widget .olapic-wall-body .olapic-wall-list-container .olapic-wall.mode_packery .item:nth-child(6)
     {
-        width: 350px;
-        height: 350px;
+        width: 340px;
+        height: 340px;
+        margin-left: 10px;
     }
     .olapic__test .olapic-wall-widget .olapic-wall-body .olapic-wall-list-container .olapic-wall.mode_packery .item:nth-child(4)
     {

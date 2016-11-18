@@ -30,6 +30,17 @@
                             }
                         }
 
+                        &:first-child {
+
+                            a:after {
+                                font-family: 'olapic-icons';
+                                content: '\e815';
+                                color: $color-white;
+                                margin-left: 5px;
+                            }
+
+                        }
+
                     }
 
                     &.nav-pills {
@@ -62,18 +73,15 @@
                                     margin-right: 10px;
                                 }
 
-                                &:first-child {
-                                    margin-left: 0;
-                                }
-
                                 &:nth-child(4) {
                                     margin-right: 0;
                                 }
 
                                 &:first-child,
                                 &:nth-child(6) {
-                                    width: 350px;
-                                    height: 350px;
+                                    width: 340px;
+                                    height: 340px;
+                                    margin-left: 10px;
                                 }
 
                                 &:nth-child(4){
