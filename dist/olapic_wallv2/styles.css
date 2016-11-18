@@ -1090,69 +1090,6 @@ html
     }
 }
 
-@media (max-width: 725px)
-{
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
-    {
-        width: 150px !important;
-        height: 150px !important;
-    }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child,
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8)
-    {
-        width: 320px !important;
-        height: 310px !important;
-    }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(10)
-    {
-        width: 150px !important;
-        height: 150px !important;
-    }
-}
-
-@media (max-width: 685px)
-{
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
-    {
-        width: 130px !important;
-        height: 130px !important;
-    }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child,
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8)
-    {
-        width: 270px !important;
-        height: 270px !important;
-    }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(10)
-    {
-        width: 130px !important;
-        height: 130px !important;
-    }
-}
-
-@media (max-width: 685px)
-{
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
-    {
-        width: 140px !important;
-        height: 140px !important;
-    }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child,
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8)
-    {
-        width: 290px !important;
-        height: 290px !important;
-    }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(10)
-    {
-        width: 140px !important;
-        height: 140px !important;
-    }
-}
-
 @media (max-width: 635px)
 {
     .olapic__test .olapic-wall-widget .olapic-nav
@@ -1193,43 +1130,44 @@ html
 
         box-shadow: none;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
+    .olapic__test .olapic-wall-widget .olapic-wall-body .olapic-wall-list-container .olapic-wall.grid
     {
-        width: 120px !important;
-        height: 120px !important;
+        padding: 0;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child,
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8)
+    .olapic__test .olapic-wall-widget .olapic-wall-body .olapic-wall-list-container .olapic-wall.mode_packery .item
     {
-        width: 250px !important;
-        height: 250px !important;
+        width: 160px;
+        height: 160px;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(10)
+    .olapic__test .olapic-wall-widget .olapic-wall-body .olapic-wall-list-container .olapic-wall.mode_packery .item:nth-child(2)
     {
-        width: 120px !important;
-        height: 120px !important;
+        margin-right: 10px;
     }
-}
-
-@media (max-width: 568px)
-{
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item
+    .olapic__test .olapic-wall-widget .olapic-wall-body .olapic-wall-list-container .olapic-wall.mode_packery .item:first-child
     {
-        width: 100px !important;
-        height: 100px !important;
+        margin-left: 0;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child,
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8)
+    .olapic__test .olapic-wall-widget .olapic-wall-body .olapic-wall-list-container .olapic-wall.mode_packery .item:nth-child(4)
     {
-        width: 210px !important;
-        height: 210px !important;
+        margin-right: 0;
     }
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
-    .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(10)
+    .olapic__test .olapic-wall-widget .olapic-wall-body .olapic-wall-list-container .olapic-wall.mode_packery .item:first-child,
+    .olapic__test .olapic-wall-widget .olapic-wall-body .olapic-wall-list-container .olapic-wall.mode_packery .item:nth-child(6)
     {
-        width: 100px !important;
-        height: 100px !important;
+        width: 350px;
+        height: 350px;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall-body .olapic-wall-list-container .olapic-wall.mode_packery .item:nth-child(4)
+    {
+        width: 160px;
+        height: 160px;
+    }
+    .olapic__test .olapic-wall-widget .olapic-wall-body .olapic-wall-list-container .olapic-wall.mode_packery .item:nth-child(7),
+    .olapic__test .olapic-wall-widget .olapic-wall-body .olapic-wall-list-container .olapic-wall.mode_packery .item:nth-child(8),
+    .olapic__test .olapic-wall-widget .olapic-wall-body .olapic-wall-list-container .olapic-wall.mode_packery .item:nth-child(9),
+    .olapic__test .olapic-wall-widget .olapic-wall-body .olapic-wall-list-container .olapic-wall.mode_packery .item:nth-child(10)
+    {
+        display: none;
     }
 }
 
@@ -1265,29 +1203,6 @@ html
     .olapic__test .olapic-wall-widget .olapic-wall.mode_packery
     {
         padding: 0;
-    }
-    .olapic__test .olapic-wall-widget .olapic-wall.grid .item
-    {
-        width: 130px !important; 
-        height: 130px !important;
-    }
-    .olapic__test .olapic-wall-widget .olapic-wall.grid .item:first-child,
-    .olapic__test .olapic-wall-widget .olapic-wall.grid .item:nth-child(6)
-    {
-        width: 270px !important;
-        height: 270px !important;
-    }
-    .olapic__test .olapic-wall-widget .olapic-wall.grid .item:nth-child(4)
-    {
-        width: 130px !important; 
-        height: 130px !important;
-    }
-    .olapic__test .olapic-wall-widget .olapic-wall.grid .item:nth-child(7),
-    .olapic__test .olapic-wall-widget .olapic-wall.grid .item:nth-child(8),
-    .olapic__test .olapic-wall-widget .olapic-wall.grid .item:nth-child(9),
-    .olapic__test .olapic-wall-widget .olapic-wall.grid .item:nth-child(10)
-    {
-        display: none !important;
     }
     .olapic__test .olapic-wall-widget .olapic-wall.grid .olapic-item-info
     {

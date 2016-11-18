@@ -42,26 +42,54 @@
             
             }
 
-            .olapic-wall {
+        .olapic-wall-body {
 
-                   &.mode_packery {
+            .olapic-wall-list-container {
 
-                    .item {
-                        width: 120px!important;
-                        height: 120px!important;
+                    .olapic-wall {
 
-                        &:first-child,
-                        &:nth-child(8) {
-                            width: 250px!important;
-                            height: 250px!important;
+                            &.grid {
+                                padding: 0;    
+                            }
+
+                           &.mode_packery {
+
+                            .item {
+                                width: 160px;
+                                height: 160px;
+
+                                &:nth-child(2) {
+                                    margin-right: 10px;
+                                }
+
+                                &:first-child {
+                                    margin-left: 0;
+                                }
+
+                                &:nth-child(4) {
+                                    margin-right: 0;
+                                }
+
+                                &:first-child,
+                                &:nth-child(6) {
+                                    width: 350px;
+                                    height: 350px;
+                                }
+
+                                &:nth-child(4){
+                                    width: 160px;
+                                    height: 160px;      
+                                }
+
+                                &:nth-child(7),
+                                &:nth-child(8),
+                                &:nth-child(9),
+                                &:nth-child(10) {
+                                    display: none;
+                                }
+
+                            }
                         }
-
-                        &:nth-child(4),
-                        &:nth-child(10) {
-                            width: 120px!important;
-                            height: 120px!important;      
-                        }
-
                     }
                 }
             }
@@ -77,26 +105,26 @@
 
             .olapic-wall {
 
-                   &.mode_packery {
+                //    &.mode_packery {
 
-                    .item {
-                        width: 100px!important;
-                        height: 100px!important;
+                //     .item {
+                //         width: 100px!important;
+                //         height: 100px!important;
 
-                        &:first-child,
-                        &:nth-child(8) {
-                            width: 210px!important;
-                            height: 210px!important;
-                        }
+                //         &:first-child,
+                //         &:nth-child(8) {
+                //             width: 210px!important;
+                //             height: 210px!important;
+                //         }
 
-                        &:nth-child(4),
-                        &:nth-child(10) {
-                            width: 100px!important;
-                            height: 100px!important;      
-                        }
+                //         &:nth-child(4),
+                //         &:nth-child(10) {
+                //             width: 100px!important;
+                //             height: 100px!important;      
+                //         }
 
-                    }
-                }
+                //     }
+                // }
             }
         }
     }
@@ -140,29 +168,29 @@
                 }
                 &.grid {
 
-                    .item {
-                        height: 130px!important;
-                        width: 130px!important;
+                    // .item {
+                    //     height: 130px!important;
+                    //     width: 130px!important;
 
-                        &:first-child,
-                        &:nth-child(6) {
-                            width: 270px!important;
-                            height: 270px!important;
-                        }
+                    //     &:first-child,
+                    //     &:nth-child(6) {
+                    //         width: 270px!important;
+                    //         height: 270px!important;
+                    //     }
 
-                        &:nth-child(4) {
-                            height: 130px!important;
-                            width: 130px!important; 
-                        }
+                    //     &:nth-child(4) {
+                    //         height: 130px!important;
+                    //         width: 130px!important; 
+                    //     }
 
-                        &:nth-child(7),
-                        &:nth-child(8),
-                        &:nth-child(9),
-                        &:nth-child(10),
-                         {
-                            display: none!important;
-                        }
-                    }
+                    //     &:nth-child(7),
+                    //     &:nth-child(8),
+                    //     &:nth-child(9),
+                    //     &:nth-child(10),
+                    //      {
+                    //         display: none!important;
+                    //     }
+                    // }
 
                     .olapic-item-info {
                         display: none;
