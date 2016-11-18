@@ -479,7 +479,8 @@ html {
 
                     &:first-child,
                     &:nth-child(9),
-                    &:nth-child(12) {
+                    &:nth-child(12),
+                    &:last-child {
                         margin-left: 0;
                     }
 

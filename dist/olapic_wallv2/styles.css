@@ -579,7 +579,8 @@ html
 }
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child,
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(9),
-.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(12)
+.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(12),
+.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:last-child
 {
     margin-left: 0;
 }
