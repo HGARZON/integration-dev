@@ -401,7 +401,7 @@ html
 
     width: 290px;
     height: 290px;
-    margin: 10px;
+    margin: 18px;
 }
 .olapic__test .olapic-wall-widget .olapic-wall.grid .item .olapic-item-media
 {
@@ -567,25 +567,36 @@ html
 {
     position: relative; 
 
-    width: 150px;
-    height: 150px;
+    width: 154px;
+    height: 154px;
 }
-.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child
-{
-    width: 320px;
-    height: 320px;
-}
+.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child,
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8),
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(11)
 {
-    width: 320px !important;
-    height: 320px !important;
+    width: 342px;
+    height: 342px;
+}
+.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:first-child,
+.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(9),
+.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(12)
+{
+    margin-left: 0;
+}
+.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(9)
+{
+    left: 0;
+}
+.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(5),
+.olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(8)
+{
+    margin-right: 0;
 }
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(4),
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item:nth-child(12)
 {
-    width: 150px;
-    height: 150px;
+    width: 154px;
+    height: 154px;
 }
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-moreinfo,
 .olapic__test .olapic-wall-widget .olapic-wall.mode_packery .item .olapic-share

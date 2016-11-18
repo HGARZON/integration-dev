@@ -324,7 +324,7 @@ html {
                 width: 290px;
                 float: left;
                 overflow: hidden;
-                margin: 10px;
+                margin: 18px;
 
                 .olapic-item-media {
                     position: absolute;
@@ -466,25 +466,36 @@ html {
                 width: 100%;
 
                 .item {
-                    width: 150px;
-                    height: 150px;
+                    width: 154px;
+                    height: 154px;
                     position: relative;
 
-                    &:first-child {
-                        width: 320px;
-                        height: 320px;
-                    }
-
+                    &:first-child,
                     &:nth-child(8),
                     &:nth-child(11) {
-                        width: 320px!important;
-                        height: 320px!important; 
+                        width: 342px;
+                        height: 342px;
+                    }
+
+                    &:first-child,
+                    &:nth-child(9),
+                    &:nth-child(12) {
+                        margin-left: 0;
+                    }
+
+                    &:nth-child(9) {
+                        left: 0;
+                    }
+
+                    &:nth-child(5),
+                    &:nth-child(8) {
+                        margin-right: 0;
                     }
 
                     &:nth-child(4),
                     &:nth-child(12){
-                        width: 150px;
-                        height: 150px;
+                        width: 154px;
+                        height: 154px;
                     }
 
                     .olapic-moreinfo,
